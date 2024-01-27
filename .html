@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS 337 Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center 50%;
+        }
+
+        #logo {
+            max-width: 100px;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 5px double #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .group-names {
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+     
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IS 337 Assignment</h1>
+        
+
+         <table>
+       
+        <caption><strong>CCIS complains frome<strong/><caption/>
+            <tr>
+                <td colspan="3"><label for="name">
+                A From to share complains with CCIS</label></td>
+            </tr>
+           
+           
+                  <tr/>
+             <tr>
+                <td rowspan="4"><input type="text" id="name" name="name" required placeholder="Enter your first name"><p>write your names here:<p/></td>
+               
+                
+            </tr>
+            <tr>
+                <td rowspan="6"><label for="study-year">Choose youe semester:</label>
+                
+                    <select id="study-year" name="study-year">
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                        <option value="6th">6th</option>
+                        <option value="7th">7th</option>
+                        <option value="8th">8th</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment">write your complain:</label>
+                <textarea id="comment" name="comment" rows="4" cols="36"></textarea></td>
+            </tr>
+        </table>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+
+</body>
+</html>
